@@ -1,0 +1,90 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,400;1,100&family=Playfair+Display:ital@1&family=Roboto:ital,wght@0,100;1,300&display=swap');
+*{
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: pink;
+}
+.pealkiri{
+    color: blue;
+    font-family: 'Lato', sans-serif;
+    text-align: center;
+    position: relative;
+    animation: header;
+    animation-duration: 3s;
+    animation-fill-mode: forwards;
+}
+@keyframes header {
+    0% {top: -250px;}
+    100% {top: 10px;;}
+}
+
+.allikas{
+    text-align: center;
+    animation: link;
+    animation-duration: 5s;
+    animation-delay: 4s;
+    animation-fill-mode: forwards; 
+}
+@keyframes link {
+    0% {opacity: 0;} 
+    100% {opacity: 1;}
+}
+.pealkiri2{
+    text-align: center;
+    color: rgb(43, 153, 226);
+}
+.Pilt{
+    font-family: stick no bills;
+    text-align: center;
+}
+.Nimekiri{
+    text-align: center;
+    margin: 3rem auto;
+    width: 200px;
+    position: relative;
+    animation: textleft;
+    animation-duration: 4s;
+    animation-timing-function: ease-in-out;
+}
+@keyframes textleft{
+    0% {left: -1000px;}
+    85% {left: 20px;}
+    100% {left: 0;}
+}
+
+.tabel1{
+    text-align: center;
+    border: 1rem solid;
+    margin: 1rem auto;
+    color: rgb(2, 26, 26);
+}
+.Koostisosad {
+    width: 20%;
+    margin: 0 auto;
+    text-align: center;
+}  
+.Valmistamine{
+    text-align: center;
+    margin: 1rem  auto;
+    width: 400px;
+    margin-top: 32px;
+    position: relative;
+    text-align: right;
+    animation: textright;
+    animation-duration: 4s;
+}
+@keyframes textright{
+    0%{right: -1000px;}
+    85%{right: 50px;}
+    100%{right: 0;}
+}
+.Koostiosad-table {
+    border: 1px solid black;
+    width: 50%;
+    margin: 0 auto;
+}
+.Fontcolor {
+    color: rgb(255, 0, 0);
+}
